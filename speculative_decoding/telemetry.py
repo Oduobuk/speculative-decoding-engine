@@ -33,3 +33,4 @@ class GenerationTelemetry:
         if self.target_forward_passes == 0:
             return 0.0
         return self.total_tokens_generated / self.target_forward_passes
+

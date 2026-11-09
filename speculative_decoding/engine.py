@@ -140,3 +140,4 @@ class SpeculativeDecodingEngine:
 
         generated_only = current_tokens[len(prompt_tokens):]
         return generated_only, telemetry
+

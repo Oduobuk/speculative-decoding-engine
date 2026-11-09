@@ -40,3 +40,4 @@ def test_standard_vs_speculative_consistency():
     assert len(out_spec) == 10
     # Speculative decoding takes fewer target model forward passes!
     assert tel_spec.target_forward_passes < tel_std.target_forward_passes
+

@@ -64,3 +64,4 @@ def test_rejection_sampling_disjoint_distributions():
     assert num_acc == 0
     # Replacement token must come from target support (1 or 2)
     assert accepted[0] in [1, 2]
+

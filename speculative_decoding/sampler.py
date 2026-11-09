@@ -101,3 +101,4 @@ def modified_rejection_sampling(
     accepted_tokens.append(bonus_token)
 
     return accepted_tokens, num_speculative_accepted
+
